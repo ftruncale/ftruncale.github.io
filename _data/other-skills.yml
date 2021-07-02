@@ -1,7 +1,11 @@
-- name: Adobe Photoshop
-  percentage: 95
-  color: info
-
-- name: Adobe Illustrator
-  percentage: 90
+- name: Collaborative Project Management
+  percentage: 100
   color: success
+
+- name: Leadership & Teamworks
+  percentage: 100
+  color: success
+
+- name: Adobe Photoshop
+  percentage: 75
+  color: info

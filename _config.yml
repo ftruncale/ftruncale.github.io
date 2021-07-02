@@ -1,10 +1,8 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Jade Truncale
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+                      I'm a software developer who prefers tabs over spaces, and learning new things over stagnating. (I'm also very allergic to cats.)
+baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 # repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
@@ -25,14 +23,15 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Jade Truncale
-  image             :
-  # email             : username@domain.com
+  image             : /images/robo_boi_bread.png
+  email             : f.truncale0@gmail.com
   linkedin          : ftruncale
   bitbucket         : ftruncale
+  github            : ftruncale
 
 
 ### Posts ###
-permalink: /blog/:title
+# permalink: /blog/:title
 
 
 ### Collections ###
@@ -68,9 +67,9 @@ defaults:
       type: "elements"                                  # For Documentation Only
     values:                                             # For Documentation Only
       layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
+  # - scope:
+  #     path: ""
+  #     type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
 
