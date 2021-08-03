@@ -2,9 +2,13 @@
   percentage: 100
   color: success
 
-- name: Leadership & Teamworks
+- name: Leadership & Teamwork
   percentage: 100
   color: success
+
+- name: GNU Image Manipulation Tool (GIMP)
+  percentage: 80
+  color: info
 
 - name: Adobe Photoshop
   percentage: 75
